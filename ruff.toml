@@ -1,0 +1,16 @@
+line-length = 140
+indent-width = 4
+
+[lint]
+select = ["E", "F", "B", "I"]
+ignore = []
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+[lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[format]
+exclude = []
