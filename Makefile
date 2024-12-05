@@ -1,3 +1,6 @@
+board:
+	uv run tensorboard --logdir=. --port=5000
+
 fmt:
 	uv run ruff format
 
