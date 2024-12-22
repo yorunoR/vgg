@@ -11,3 +11,6 @@ wheels/
 
 /chapter*
 /data/*
+
+/logs/*
+/results/*
