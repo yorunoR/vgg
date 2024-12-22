@@ -3,5 +3,16 @@ name = "vgg"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "keras>=2.14.0",
+    "numpy<2",
+    "opencv-python>=4.10.0.84",
+    "scipy>=1.14.1",
+    "tensorflow==2.14.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8.1",
+]
