@@ -16,3 +16,7 @@ wheels/
 /logs/*
 /results/*
 /debugs/*
+
+/VOCtrainval_11-May-2012.tar
+/VOCdevkit/VOC2012/
+.ipynb_checkpoints/
